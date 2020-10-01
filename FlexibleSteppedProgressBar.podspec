@@ -36,5 +36,7 @@ Pod::Spec.new do |s|
   s.framework = "UIKit"
 
   s.source_files = "FlexibleSteppedProgressBar/**/*.{swift}"
+  
+  s.swift_version = '5.0'
 
 end
